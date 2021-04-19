@@ -1,0 +1,32 @@
+{
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+
+    "git.enableSmartCommit": true,
+
+    "files.autoSave": "afterDelay",
+
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    
+    "cSpell.userWords": [
+        "Favicons"
+    ],
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.editor.enablePreview": false,
+    "explorer.confirmDelete": false,
+    "git.autofetch": true,
+    "explorer.confirmDragAndDrop": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "git.confirmSync": false,
+    "diffEditor.ignoreTrimWhitespace": false
+    
+}
