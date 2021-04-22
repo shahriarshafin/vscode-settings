@@ -20,10 +20,10 @@ code --list-extensions
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension pranaygp.vscode-css-peek
 code --install-extension coenraads.bracket-pair-colorizer-2
-code --install-extension hookyqr.beautify
+code --install-extension esbenp.prettier-vscode
 code --install-extension ritwickdey.liveserver
 code --install-extension eamodio.gitlens
-# code --install-extension esbenp.prettier-vscode
+# code --install-extension hookyqr.beautify
 # code --install-extension dsznajder.es7-react-js-snippets
 # code --install-extension streetsidesoftware.code-spell-checker
 # code --install-extension ms-python.python
