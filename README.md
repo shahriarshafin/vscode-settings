@@ -1,7 +1,7 @@
 # VS Code Settings
 My Visual Studio Code Settings & Extensions
 <br>
-click [here](https://github.com/) to download settings.json
+click [here](https://raw.githubusercontent.com/shahriarshafin/vscode-settings/main/settings.json?token=AHVY5NXDGLQUOLWMLKUUR53ARMZTW) and copy settings.json
 
 ## User Snippets
 - [Markdown](https://github.com/shahriarshafin/vscode-settings/blob/main/snippets/markdown.json)
