@@ -2,24 +2,24 @@
 	//____________SYSTEM SETTINGS____________
 	// save after 1 second
 	"files.autoSave": "afterDelay",
-
 	//snippets tab completions
 	"editor.tabCompletion": "on",
-
 	// confirm before delete
 	"explorer.confirmDelete": false,
-
 	// fetch changes from remotes
 	"git.autofetch": true,
+	// smart commit ctrl + enter
+	"git.enableSmartCommit": true,
+	// git syncing
+	"git.confirmSync": false,
 	//____________SYSTEM SETTINGS____________
 
-	//___________EXTENSION SETTINGS__________
+	//__________EXTENSION SETTINGS___________
 	// prettier Settings
 	"prettier.useTabs": true,
-
 	// liveServer settings
 	"liveServer.settings.useLocalIp": true,
-	//___________EXTENSION SETTINGS__________
+	//__________EXTENSION SETTINGS___________
 
 	//___________FORMATER SETTINGS___________
 	// HTML formatter
