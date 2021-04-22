@@ -1,32 +1,38 @@
 {
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+	//____________SYSTEM SETTINGS____________
+	// save after 1 second
+	"files.autoSave": "afterDelay",
 
-    "git.enableSmartCommit": true,
+	//snippets tab completions
+	"editor.tabCompletion": "on",
 
-    "files.autoSave": "afterDelay",
+	// confirm before delete
+	"explorer.confirmDelete": false,
 
-    "[html]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    
-    "cSpell.userWords": [
-        "Favicons"
-    ],
-    "liveServer.settings.donotShowInfoMsg": true,
-    "workbench.editor.enablePreview": false,
-    "explorer.confirmDelete": false,
-    "git.autofetch": true,
-    "explorer.confirmDragAndDrop": false,
-    "liveServer.settings.donotVerifyTags": true,
-    "[javascript]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "git.confirmSync": false,
-    "diffEditor.ignoreTrimWhitespace": false
-    
+	// fetch changes from remotes
+	"git.autofetch": true,
+	//____________SYSTEM SETTINGS____________
+
+	//___________EXTENSION SETTINGS__________
+	// prettier Settings
+	"prettier.useTabs": true,
+
+	// liveServer settings
+	"liveServer.settings.useLocalIp": true,
+	//___________EXTENSION SETTINGS__________
+
+	//___________FORMATER SETTINGS___________
+	// HTML formatter
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	// JavaScript formatter
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	// JSON formatter
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+	//___________FORMATER SETTINGS___________
 }
