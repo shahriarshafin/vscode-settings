@@ -33,6 +33,10 @@
 	// JSON formatter
 	"[jsonc]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	// React formatter
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	}
 	//___________FORMATER SETTINGS___________
 }
