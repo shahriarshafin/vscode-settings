@@ -6,6 +6,7 @@ click [here](https://raw.githubusercontent.com/shahriarshafin/vscode-settings/ma
 ## User Snippets
 - [Markdown](https://github.com/shahriarshafin/vscode-settings/blob/main/snippets/markdown.json)
 - [JavaScript](https://github.com/shahriarshafin/vscode-settings/blob/main/snippets/javascript.json)
+- [JavaScript React](https://github.com/shahriarshafin/vscode-settings/blob/main/snippets/javascriptreact.json)
 
 ## Installed Extensions
 
