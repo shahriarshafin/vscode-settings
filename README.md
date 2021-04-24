@@ -5,6 +5,7 @@ click [here](https://raw.githubusercontent.com/shahriarshafin/vscode-settings/ma
 
 ## User Snippets
 - [Markdown](https://github.com/shahriarshafin/vscode-settings/blob/main/snippets/markdown.json)
+- [JavaScript](https://github.com/shahriarshafin/vscode-settings/blob/main/snippets/javascript.json)
 
 ## Installed Extensions
 
@@ -23,8 +24,8 @@ code --install-extension coenraads.bracket-pair-colorizer-2
 code --install-extension esbenp.prettier-vscode
 code --install-extension ritwickdey.liveserver
 code --install-extension eamodio.gitlens
+code --install-extension dsznajder.es7-react-js-snippets
 # code --install-extension hookyqr.beautify
-# code --install-extension dsznajder.es7-react-js-snippets
 # code --install-extension streetsidesoftware.code-spell-checker
 # code --install-extension ms-python.python
 # code --install-extension ms-toolsai.jupyter
