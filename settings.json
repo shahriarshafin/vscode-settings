@@ -10,13 +10,10 @@
 	"git.autofetch": true,
 	// smart commit ctrl + enter
 	"git.enableSmartCommit": true,
-	// git syncing
+	// git syncing to remote
 	"git.confirmSync": false,
-	//____________SYSTEM SETTINGS____________
-
-	//__________EXTENSION SETTINGS___________
-	// prettier Settings
-	"prettier.useTabs": true,
+	// file/folder drag-drop confirmation
+	"explorer.confirmDragAndDrop": false,
 	// liveServer settings
 	"liveServer.settings.useLocalIp": true,
 	//__________EXTENSION SETTINGS___________
@@ -37,6 +34,6 @@
 	// React formatter
 	"[javascriptreact]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	}
+	},
 	//___________FORMATER SETTINGS___________
 }
