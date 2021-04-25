@@ -6,6 +6,8 @@
 	"editor.tabCompletion": "on",
 	// confirm before delete
 	"explorer.confirmDelete": false,
+	// file/folder drag-drop confirmation
+	"explorer.confirmDragAndDrop": false,
 	// fetch changes from remotes
 	"git.autofetch": true,
 	// smart commit ctrl + enter
@@ -37,6 +39,6 @@
 	// React formatter
 	"[javascriptreact]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	}
+	},
 	//___________FORMATER SETTINGS___________
 }
