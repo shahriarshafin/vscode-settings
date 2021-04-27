@@ -45,4 +45,4 @@ code --uninstall-extension ritwickdey.liveserver
 ```
 <p align="right">
     <b><a href="#VS-Code-Settings">↥ Back To Top</a></b>
-<p/>
+</p>
