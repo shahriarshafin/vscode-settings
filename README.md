@@ -24,6 +24,7 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension ritwickdey.liveserver
 code --install-extension eamodio.gitlens
 code --install-extension dsznajder.es7-react-js-snippets
+code --install-extension jpoissonnier.vscode-styled-components
 # code --install-extension streetsidesoftware.code-spell-checker
 # code --install-extension ms-python.python
 # code --install-extension ms-toolsai.jupyter
