@@ -17,9 +17,10 @@
 	//____________SYSTEM SETTINGS____________
 
 	//__________EXTENSION SETTINGS___________
-	// prettier Settings
+	// prettier
 	"prettier.useTabs": true,
-	// liveServer settings
+	// liveServer
+	"liveServer.settings.donotShowInfoMsg": true,
 	"liveServer.settings.useLocalIp": true,
 	//__________EXTENSION SETTINGS___________
 
