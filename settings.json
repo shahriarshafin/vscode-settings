@@ -1,32 +1,46 @@
 {
 	//____________SYSTEM SETTINGS____________
-	// save after 1 second
-	"files.autoSave": "afterDelay",
-	//snippets tab completions
+	// complete snippets on tab
 	"editor.tabCompletion": "on",
-	// confirm before delete
+	// file delete confirmation
 	"explorer.confirmDelete": false,
 	// file/folder drag-drop confirmation
 	"explorer.confirmDragAndDrop": false,
+	// terminal left side tab
+	"terminal.integrated.tabs.enabled": true,
+	// cursor smooth animation
+	"editor.cursorSmoothCaretAnimation": true,
+	// format On Save
+	"editor.formatOnSave": true,
+	// default terminal
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
 	// fetch changes from remotes
 	"git.autofetch": true,
 	// smart commit ctrl + enter
 	"git.enableSmartCommit": true,
-	// git syncing
+	// git syncing confirmation
 	"git.confirmSync": false,
 	//____________SYSTEM SETTINGS____________
 
 	//__________EXTENSION SETTINGS___________
-	// prettier
+	// #prettier
 	"prettier.useTabs": true,
-	// liveServer
+	// #liveServer
 	"liveServer.settings.donotShowInfoMsg": true,
-	"liveServer.settings.useLocalIp": true,
+	// "liveServer.settings.useLocalIp": true,
+	// #theme-one dark pro
+	"workbench.colorTheme": "One Dark Pro",
+	// #tabnine
+	"tabnine.experimentalAutoImports": true,
 	//__________EXTENSION SETTINGS___________
 
 	//___________FORMATER SETTINGS___________
 	// HTML formatter
 	"[html]": {
+		"editor.defaultFormatter": "HookyQR.beautify"
+	},
+	// CSS formatter
+	"[css]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	// JavaScript formatter
@@ -40,6 +54,10 @@
 	// React formatter
 	"[javascriptreact]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
+	}
 	//___________FORMATER SETTINGS___________
+
+	// python SETTINGS___________
+
+	// python SETTINGS___________
 }
