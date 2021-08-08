@@ -14,6 +14,8 @@
 	"editor.formatOnSave": true,
 	// default terminal
 	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	// auto rename end tag
+	"editor.linkedEditing": true,
 	// fetch changes from remotes
 	"git.autofetch": true,
 	// smart commit ctrl + enter
@@ -27,7 +29,7 @@
 	"prettier.useTabs": true,
 	// #liveServer
 	"liveServer.settings.donotShowInfoMsg": true,
-	// "liveServer.settings.useLocalIp": true,
+	"liveServer.settings.useLocalIp": true,
 	// #theme-one dark pro
 	"workbench.colorTheme": "One Dark Pro",
 	// #tabnine
