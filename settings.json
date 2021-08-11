@@ -14,7 +14,7 @@
 	"editor.formatOnSave": true,
 	// default terminal
 	"terminal.integrated.defaultProfile.windows": "Git Bash",
-	// auto rename end tag
+	// auto rename tag
 	"editor.linkedEditing": true,
 	// fetch changes from remotes
 	"git.autofetch": true,

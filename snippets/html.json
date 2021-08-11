@@ -1,0 +1,227 @@
+{
+	// Shahriar Shafin
+	// https://github.com/shahriarshafin
+	// connect.shafin@gmail.com
+	// -------------------------------------------------------
+	// -------------------------------------------------------
+	// ############# Snippect Map #############
+	// # Bootstrap Colors: primary, secondary, success, danger, warning, info, light, dark
+	// 1. Bootstrap Starter Template --> bst
+	// 2. Bootstrap Buttons          --> btn-primary / [bootstrap-colors]
+	// 3. Bootstrap alert            --> alert-primary / [bootstrap-colors]
+	// 4. Bootstrap nav-tab          --> nav-tab
+	// -------------------------------------------------------
+	// -------------------------------------------------------
+	// Bootstrap Starter Template
+	"Bootstrap starter template": {
+		"prefix": "bst",
+		"body": [
+			"<!doctype html>",
+			"<html lang=\"en\">",
+			"    <head>",
+			"        <!-- Required meta tags -->",
+			"        <meta charset=\"utf-8\">",
+			"        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+			"        <!-- Favicon -->",
+			"        <link rel=\"icon\" href=\"./assets/image/favicon-32x32.png\" type=\"image/gif\" sizes=\"32x32\">",
+			"        <link rel=\"shortcut icon\" href=\"./assets/image/favicon-32x32.png\" type=\"image/gif\" sizes=\"32x32\">",
+			"        <link rel=\"apple-touch-icon\" href=\"./assets/image/apple-touch-icon.png\" type=\"image/gif\">",
+			"        <!-- Google Font CDN -->",
+			"        <link href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap\" rel=\"stylesheet\">",
+			"        <!-- Bootstrap CSS -->",
+			"        <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css\" rel=\"stylesheet\"",
+			"            integrity=\"sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC\" crossorigin=\"anonymous\">",
+			"        <!-- Fontawesome -->",
+			"        <link rel=\"stylesheet\" href=\"https://pro.fontawesome.com/releases/v5.10.0/css/all.css\"",
+			"            integrity=\"sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p\" crossorigin=\"anonymous\" />",
+			"        <!-- Main CSS -->",
+			"        <link rel=\"stylesheet\" href=\"./assets/css/style.css\">",
+			"        <title>Title of the site</title>",
+			"    </head>",
+			"  <body>",
+			"",
+			"",
+			"    <h1>Hello, world!</h1>",
+			"",
+			"",
+			"    <!-- Bootstrap Bundle with Popper -->",
+			"    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM\" crossorigin=\"anonymous\"></script>",
+			"    <!-- Main JS -->",
+			"    <script src=\"./assets/css/script.js\"></script>",
+			"  </body>",
+			"</html>"
+		],
+		"description": "Bootstrap starter template"
+	},
+	// Bootstrap Buttons
+	"Bootstrap primary button": {
+		"prefix": "btn-primary",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-primary\">Primary</button>"
+		],
+		"description": "Bootstrap primary button"
+	},
+	"Bootstrap secondary button": {
+		"prefix": "btn-secondary",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-secondary\">Secondary</button>"
+		],
+		"description": "Bootstrap primary button"
+	},
+	"Bootstrap success button": {
+		"prefix": "btn-success",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-success\">Success</button>"
+		],
+		"description": "Bootstrap success button"
+	},
+	"Bootstrap danger button": {
+		"prefix": "btn-danger",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-danger\">Danger</button>"
+		],
+		"description": "Bootstrap danger button"
+	},
+	"Bootstrap warning button": {
+		"prefix": "btn-warning",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-warning\">Warning</button>"
+		],
+		"description": "Bootstrap warning button"
+	},
+	"Bootstrap info button": {
+		"prefix": "btn-info",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-info\">Info</button>"
+		],
+		"description": "Bootstrap info button"
+	},
+	"Bootstrap light button": {
+		"prefix": "btn-light",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-light\">Light</button>"
+		],
+		"description": "Bootstrap light button"
+	},
+	"Bootstrap dark button": {
+		"prefix": "btn-dark",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-dark\">Dark</button>"
+		],
+		"description": "Bootstrap dark button"
+	},
+	"Bootstrap link button": {
+		"prefix": "btn-link",
+		"body": [
+			"<button type=\"button\" class=\"btn btn-link\">Link</button>"
+		],
+		"description": "Bootstrap link button"
+	},
+	// Bootstrap alert
+	"Bootstrap alert primary": {
+		"prefix": "alert-primary",
+		"body": [
+			"<div class=\"alert alert-primary\" role=\"alert\">",
+			"  A simple primary alert—check it out!",
+			"</div>"
+		],
+		"description": "Bootstrap alert primary"
+	},
+	"Bootstrap alert secondary": {
+		"prefix": "alert-secondary",
+		"body": [
+			"<div class=\"alert alert-secondary\" role=\"alert\">",
+			"  A simple secondary alert—check it out!",
+			"</div>"
+		],
+		"description": "Bootstrap alert secondary"
+	},
+	"Bootstrap alert success": {
+		"prefix": "alert-success",
+		"body": [
+			"<div class=\"alert alert-success\" role=\"alert\">",
+			"  A simple success alert—check it out!",
+			"</div>"
+		],
+		"description": "Bootstrap alert success"
+	},
+	"Bootstrap alert danger": {
+		"prefix": "alert-danger",
+		"body": [
+			"<div class=\"alert alert-danger\" role=\"alert\">",
+			"  A simple danger alert—check it out!",
+			"</div>"
+		],
+		"description": "Bootstrap alert danger"
+	},
+	"Bootstrap alert warning": {
+		"prefix": "alert-warning",
+		"body": [
+			"<div class=\"alert alert-warning\" role=\"alert\">",
+			"  A simple warning alert—check it out!",
+			"</div>"
+		],
+		"description": "Bootstrap alert warning"
+	},
+	"Bootstrap alert info": {
+		"prefix": "alert-info",
+		"body": [
+			"<div class=\"alert alert-info\" role=\"alert\">",
+			"  A simple info alert—check it out!",
+			"</div>"
+		],
+		"description": "Bootstrap alert info"
+	},
+	"Bootstrap alert light": {
+		"prefix": "alert-light",
+		"body": [
+			"<div class=\"alert alert-light\" role=\"alert\">",
+			"  A simple light alert—check it out!",
+			"</div>"
+		],
+		"description": "Bootstrap alert light"
+	},
+	"Bootstrap alert dark": {
+		"prefix": "alert-dark",
+		"body": [
+			"<div class=\"alert alert-dark\" role=\"alert\">",
+			"  A simple dark alert—check it out!",
+			"</div>"
+		],
+		"description": "Bootstrap alert dark"
+	},
+	// Bootstrap nav-tab
+	"Bootstrap nav-tab": {
+		"prefix": "nav-tab",
+		"body": [
+			"    <nav>",
+			"        <div class=\"nav nav-tabs\" id=\"nav-tab\" role=\"tablist\">",
+			"            <button class=\"nav-link active\" id=\"nav-home-tab\" data-bs-toggle=\"tab\" data-bs-target=\"#nav-home\"",
+			"                type=\"button\" role=\"tab\" aria-controls=\"nav-home\" aria-selected=\"true\">Home</button>",
+			"            <button class=\"nav-link\" id=\"nav-profile-tab\" data-bs-toggle=\"tab\" data-bs-target=\"#nav-profile\"",
+			"                type=\"button\" role=\"tab\" aria-controls=\"nav-profile\" aria-selected=\"false\">Profile</button>",
+			"            <button class=\"nav-link\" id=\"nav-contact-tab\" data-bs-toggle=\"tab\" data-bs-target=\"#nav-contact\"",
+			"                type=\"button\" role=\"tab\" aria-controls=\"nav-contact\" aria-selected=\"false\">Contact</button>",
+			"        </div>",
+			"    </nav>",
+			"    <div class=\"tab-content\" id=\"nav-tabContent\">",
+			"        <div class=\"tab-pane fade show active\" id=\"nav-home\" role=\"tabpanel\" aria-labelledby=\"nav-home-tab\">",
+			"            <!-- content-1-start-->",
+			"            content for first tab",
+			"            <!-- content-1-end-->",
+			"        </div>",
+			"        <div class=\"tab-pane fade\" id=\"nav-profile\" role=\"tabpanel\" aria-labelledby=\"nav-profile-tab\">",
+			"            <!-- content-2-start-->",
+			"            content for second tab",
+			"            <!-- content-2-end-->",
+			"        </div>",
+			"        <div class=\"tab-pane fade\" id=\"nav-contact\" role=\"tabpanel\" aria-labelledby=\"nav-contact-tab\">",
+			"            <!-- content-3-start-->",
+			"            content for third tab",
+			"            <!-- content-3-end-->",
+			"        </div>",
+			"    </div>"
+		],
+		"description": "Bootstrap nav-tab"
+	}
+}
