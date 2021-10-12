@@ -15,7 +15,7 @@
 	// default terminal
 	"terminal.integrated.defaultProfile.windows": "Git Bash",
 	// auto rename tag
-	"editor.linkedEditing": true,
+	// "editor.linkedEditing": true,
 	// fetch changes from remotes
 	"git.autofetch": true,
 	// smart commit ctrl + enter
@@ -29,37 +29,34 @@
 	"prettier.useTabs": true,
 	// #liveServer
 	"liveServer.settings.donotShowInfoMsg": true,
-	"liveServer.settings.useLocalIp": true,
+	"liveServer.settings.donotVerifyTags": true,
+	// "liveServer.settings.useLocalIp": true,
 	// #theme-one dark pro
 	"workbench.colorTheme": "One Dark Pro",
 	// #tabnine
 	"tabnine.experimentalAutoImports": true,
+	//#vscode-icons
+	"workbench.iconTheme": "vscode-icons",
 	//__________EXTENSION SETTINGS___________
 
 	//___________FORMATER SETTINGS___________
-	// HTML formatter
 	"[html]": {
 		"editor.defaultFormatter": "HookyQR.beautify"
 	},
-	// CSS formatter
 	"[css]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	// JavaScript formatter
 	"[javascript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	// JSON formatter
-	"[jsonc]": {
+	"[javascriptreact]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	// React formatter
-	"[javascriptreact]": {
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	}
 	//___________FORMATER SETTINGS___________
-
-	// python SETTINGS___________
-
-	// python SETTINGS___________
 }

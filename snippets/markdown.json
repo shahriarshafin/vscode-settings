@@ -1,38 +1,27 @@
 {
 	"italic text": {
 		"prefix": "italic",
-		"body": [
-			"*italic*"
-		],
+		"body": ["*italic*"],
 		"description": "Text in italic form"
 	},
 	"Bold text": {
 		"prefix": "bold",
-		"body": [
-			"**bold**"
-		],
+		"body": ["**bold**"],
 		"description": "Text in bold form"
 	},
 	"Strikethrough text": {
 		"prefix": "delete",
-		"body": [
-			"~~Scratch this.~~"
-		],
+		"body": ["~~Scratch this.~~"],
 		"description": "Strikethrough this text"
 	},
 	"Unordered list": {
 		"prefix": "ul",
-		"body": [
-			"",
-			"- Unordered list 1"
-		],
+		"body": ["", "- Unordered list 1"],
 		"description": "Unordered sub list"
 	},
 	"Attach inline link": {
 		"prefix": "link",
-		"body": [
-			"[link](https://)"
-		],
+		"body": ["[link](https://)"],
 		"description": "Attach inline link with text"
 	},
 	"Image": {
@@ -44,18 +33,12 @@
 	},
 	"Inline code": {
 		"prefix": "code",
-		"body": [
-			" `code here` "
-		],
+		"body": [" `code here` "],
 		"description": "Add Inline code"
 	},
 	"Add code block": {
 		"prefix": "code-block",
-		"body": [
-			"```",
-			"code block",
-			"```"
-		],
+		"body": ["```", "code block", "```"],
 		"description": "Add code block"
 	},
 	"Insert table": {
@@ -80,9 +63,7 @@
 	},
 	"Horizontal rule": {
 		"prefix": "hr",
-		"body": [
-			"---"
-		],
+		"body": ["---"],
 		"description": "Horizontal rule"
 	},
 	"Youtube video": {
@@ -96,10 +77,7 @@
 	},
 	"Line brake": {
 		"prefix": "Line brake",
-		"body": [
-			"<br>",
-			""
-		],
+		"body": ["<br>", ""],
 		"description": "Line brake"
 	},
 	"MIT License": {

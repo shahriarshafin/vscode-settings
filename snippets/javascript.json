@@ -1,9 +1,35 @@
 {
-	"Display an alert box": {
-		"prefix": "alt",
+	"Print log to console": {
+		"prefix": "log",
+		"body": ["console.log($hello);"],
+		"description": "Log output to console"
+	},
+	"Alert Hello World": {
+		"prefix": "alert",
+		"body": ["alert(\"Hello, Genius!\");"],
+		"description": "Alert Hello Genius"
+	},
+	"Javascript arrow function": {
+		"prefix": "func",
 		"body": [
-		  " alert(\"${1:Hello!}\");"
+			"const $myfunc = () => {",
+			"   const a = 5;",
+			"   console.log(a);$0",
+			"};",
+			"",
+			"$myfunc();",
+			""
 		],
-		"description": "Display an alert box"
-	  }
+		"description": "Javascript arrow function"
+	},
+	"Get element by Id": {
+		"prefix": "getid",
+		"body": ["const $el = document.getElementById('$el');", "$0"],
+		"description": "Get element by Id"
+	},
+	"Get element by Class": {
+		"prefix": "getclass",
+		"body": ["const $el = document.getElementsByClassName('$el');", "$0"],
+		"description": "Get element by Class"
+	}
 }

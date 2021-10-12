@@ -1,0 +1,21 @@
+{
+	"Display flex property": {
+		"prefix": "d-flex",
+		"body": [
+			"display: flex;",
+			"align-items: center;",
+			"justify-content: center;"
+		],
+		"description": "Display flex property"
+	},
+	"User select property": {
+		"prefix": "user-select",
+		"body": [
+			"-webkit-user-drag: none;",
+			"user-select: none;",
+			"-webkit-user-select: none;",
+			"-ms-user-select: none;"
+		],
+		"description": "User select property"
+	}
+}
