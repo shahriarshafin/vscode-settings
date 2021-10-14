@@ -2,20 +2,27 @@
 	//____________SYSTEM SETTINGS____________
 	// complete snippets on tab
 	"editor.tabCompletion": "on",
-	// file delete confirmation
-	"explorer.confirmDelete": false,
-	// file/folder drag-drop confirmation
-	"explorer.confirmDragAndDrop": false,
-	// terminal left side tab
-	"terminal.integrated.tabs.enabled": true,
 	// cursor smooth animation
 	"editor.cursorSmoothCaretAnimation": true,
 	// format On Save
 	"editor.formatOnSave": true,
-	// default terminal
-	"terminal.integrated.defaultProfile.windows": "Git Bash",
 	// auto rename tag
 	// "editor.linkedEditing": true,
+
+	// file delete confirmation
+	"explorer.confirmDelete": false,
+	// file/folder drag-drop confirmation
+	"explorer.confirmDragAndDrop": false,
+
+	// terminal left side tab
+	"terminal.integrated.tabs.enabled": true,
+	// terminal cursor style line/block
+	"terminal.integrated.cursorStyle": "line",
+	// terminal cursor line width
+	"terminal.integrated.cursorWidth": 2,
+	// default terminal
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+
 	// fetch changes from remotes
 	"git.autofetch": true,
 	// smart commit ctrl + enter
@@ -27,14 +34,19 @@
 	//__________EXTENSION SETTINGS___________
 	// #prettier
 	"prettier.useTabs": true,
+	"prettier.singleQuote": true,
+
 	// #liveServer
 	"liveServer.settings.donotShowInfoMsg": true,
 	"liveServer.settings.donotVerifyTags": true,
 	// "liveServer.settings.useLocalIp": true,
+
 	// #theme-one dark pro
 	"workbench.colorTheme": "One Dark Pro",
+
 	// #tabnine
 	"tabnine.experimentalAutoImports": true,
+
 	//#vscode-icons
 	"workbench.iconTheme": "vscode-icons",
 	//__________EXTENSION SETTINGS___________
