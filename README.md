@@ -28,8 +28,6 @@ code --install-extension zhuangtongfa.material-theme
 
 ```bash
 code --install-extension formulahendry.auto-rename-tag
-code --install-extension HookyQR.beautify
-code --install-extension alefragnani.Bookmarks
 code --install-extension shahriarshafin.bootstrap-5-snippets
 code --install-extension coenraads.bracket-pair-colorizer-2
 code --install-extension pranaygp.vscode-css-peek

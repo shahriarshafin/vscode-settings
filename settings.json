@@ -1,13 +1,26 @@
 {
 	//____________SYSTEM SETTINGS____________
+	// experimental
+	// "javascript.validate.enable": false,
+	// "typescript.validate.enable": false,
+
+	// include js feature on react
+	"emmet.includeLanguages": { "javascript": "javascriptreact" },
+	// auto update import
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	// remove end whitespace on save
+	"files.trimTrailingWhitespace": true,
 	// complete snippets on tab
 	"editor.tabCompletion": "on",
 	// cursor smooth animation
 	"editor.cursorSmoothCaretAnimation": true,
 	// format On Save
 	"editor.formatOnSave": true,
+	// scroll wheel to zoom
+	"editor.mouseWheelZoom": true,
 	// auto rename tag
-	// "editor.linkedEditing": true,
+	"editor.linkedEditing": true,
 
 	// file delete confirmation
 	"explorer.confirmDelete": false,
@@ -32,6 +45,12 @@
 	//____________SYSTEM SETTINGS____________
 
 	//__________EXTENSION SETTINGS___________
+	// #eslint
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true,
+		"source.fixAll.tslint": true,
+		"source.organizeImports": true
+	},
 	// #prettier
 	"prettier.useTabs": true,
 	"prettier.singleQuote": true,
@@ -42,33 +61,32 @@
 	// "liveServer.settings.useLocalIp": true,
 
 	// #theme-one dark pro
-	"workbench.colorTheme": "One Dark Pro",
+	"workbench.colorTheme": "One Dark Pro Darker",
 
 	// #tabnine
-	"tabnine.experimentalAutoImports": true,
+	// "tabnine.experimentalAutoImports": true,
 
 	//#vscode-icons
 	"workbench.iconTheme": "vscode-icons",
 	//__________EXTENSION SETTINGS___________
 
 	//___________FORMATER SETTINGS___________
-	"[html]": {
-		"editor.defaultFormatter": "HookyQR.beautify"
-	},
-	"[css]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[javascript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[javascriptreact]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[json]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+	"[html]": { "editor.defaultFormatter": "vscode.html-language-features" },
+
+	"[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
+	"[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
+	"[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
+	"[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
 	"[jsonc]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	}
+	},
+	"tabnine.experimentalAutoImports": true
+
 	//___________FORMATER SETTINGS___________
 }

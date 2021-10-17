@@ -1,4 +1,22 @@
 {
+	"Import react": {
+		"prefix": "imp-react",
+		"body": ["import React from 'react';"],
+		"description": "Import react"
+	},
+	"Replace a tag with react router link": {
+		"prefix": "Link",
+		"body": ["<Link to=\"/something\">Something</Link>"],
+		"description": "The primary way to allow users to navigate around react application"
+	},
+	"import react-router-dom": {
+		"prefix": "imp-router",
+		"body": [
+			"import {BrowserRouter as Router, Switch, Route, Link} from \"react-router-dom\";"
+		],
+		"description": "import react-router-dom"
+	},
+
 	"Print log to console": {
 		"prefix": "log",
 		"body": ["console.log($hello);"],
@@ -21,15 +39,5 @@
 			""
 		],
 		"description": "Javascript arrow function"
-	},
-	"Get element by Id": {
-		"prefix": "getid",
-		"body": ["const $el = document.getElementById('$el');", "$0"],
-		"description": "Get element by Id"
-	},
-	"Get element by Class": {
-		"prefix": "getclass",
-		"body": ["const $el = document.getElementsByClassName('$el');", "$0"],
-		"description": "Get element by Class"
 	}
 }
