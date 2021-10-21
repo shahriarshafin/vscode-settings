@@ -1,76 +1,68 @@
 {
-	//____________SYSTEM SETTINGS____________
-	// experimental
-	// "javascript.validate.enable": false,
-	// "typescript.validate.enable": false,
+	//____________GENERAL__________
+	// remove end whitespace on save
+	"files.trimTrailingWhitespace": true,
+	// format On Save
+	"editor.formatOnSave": true,
+	// file delete confirmation
+	"explorer.confirmDelete": false,
+	// file/folder drag-drop confirmation
+	"explorer.confirmDragAndDrop": false,
+	//___________GENERAL__________
 
+	//__________FEATURES__________
 	// include js feature on react
 	"emmet.includeLanguages": { "javascript": "javascriptreact" },
 	// auto update import
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"typescript.updateImportsOnFileMove.enabled": "always",
-	// remove end whitespace on save
-	"files.trimTrailingWhitespace": true,
-	// complete snippets on tab
-	"editor.tabCompletion": "on",
-	// cursor smooth animation
-	"editor.cursorSmoothCaretAnimation": true,
-	// format On Save
-	"editor.formatOnSave": true,
-	// scroll wheel to zoom
-	"editor.mouseWheelZoom": true,
 	// auto rename tag
 	"editor.linkedEditing": true,
+	// complete snippets on tab
+	"editor.tabCompletion": "on",
+	//___________FEATURES__________
 
-	// file delete confirmation
-	"explorer.confirmDelete": false,
-	// file/folder drag-drop confirmation
-	"explorer.confirmDragAndDrop": false,
-
+	//__________TERMINAL__________
 	// terminal left side tab
 	"terminal.integrated.tabs.enabled": true,
-	// terminal cursor style line/block
-	"terminal.integrated.cursorStyle": "line",
 	// terminal cursor line width
 	"terminal.integrated.cursorWidth": 2,
 	// default terminal
 	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	//__________TERMINAL___________
 
+	//_______VERSION CONTROL_______
 	// fetch changes from remotes
 	"git.autofetch": true,
 	// smart commit ctrl + enter
 	"git.enableSmartCommit": true,
 	// git syncing confirmation
 	"git.confirmSync": false,
-	//____________SYSTEM SETTINGS____________
+	//_______VERSION CONTROL_______
 
-	//__________EXTENSION SETTINGS___________
-	// #eslint
-	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": true,
-		"source.fixAll.tslint": true,
-		"source.organizeImports": true
-	},
+	//_________EXTENSIONS__________
 	// #prettier
 	"prettier.useTabs": true,
 	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
 
 	// #liveServer
 	"liveServer.settings.donotShowInfoMsg": true,
 	"liveServer.settings.donotVerifyTags": true,
 	// "liveServer.settings.useLocalIp": true,
 
-	// #theme-one dark pro
-	"workbench.colorTheme": "One Dark Pro Darker",
+	// #eslint
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true,
+		"source.fixAll.tslint": true,
+		"source.organizeImports": true
+	},
 
 	// #tabnine
-	// "tabnine.experimentalAutoImports": true,
+	"tabnine.experimentalAutoImports": true,
+	//_________EXTENSIONS__________
 
-	//#vscode-icons
-	"workbench.iconTheme": "vscode-icons",
-	//__________EXTENSION SETTINGS___________
-
-	//___________FORMATER SETTINGS___________
+	//___________FORMATER___________
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 
 	"[html]": { "editor.defaultFormatter": "vscode.html-language-features" },
@@ -86,7 +78,39 @@
 	"[jsonc]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	"tabnine.experimentalAutoImports": true
+	//___________FORMATER___________
 
-	//___________FORMATER SETTINGS___________
+	//___________OUTLOOK____________
+	// theme-one dark pro
+	"workbench.colorTheme": "One Dark Pro Darker",
+	// vscode-icons
+	"workbench.iconTheme": "material-icon-theme",
+	// scroll wheel to zoom
+	"editor.mouseWheelZoom": true,
+	// smooth scrolling
+	"editor.smoothScrolling": true,
+	// list smooth scrolling
+	"workbench.list.smoothScrolling": true,
+	// cursor smooth blinking
+	"editor.cursorBlinking": "expand",
+	// cursor smooth expand animation
+	"editor.cursorSmoothCaretAnimation": true,
+	// custom color
+	"workbench.colorCustomizations": {
+		"tab.activeBorder": "#f8dc07"
+		// "tab.activeBorderTop": "#12b38a"
+	},
+	// window title on top
+	"window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}SHAHRIAR SHAFIN",
+	// terminal cursor line
+	"terminal.integrated.cursorStyle": "line",
+	// terminal cursor blinking
+	"terminal.integrated.cursorBlinking": true
+	//___________OUTLOOK____________
+
+	//_________EXPERIMENTS__________
+	// "javascript.validate.enable": false,
+	// "typescript.validate.enable": false,
+
+	//_________EXPERIMENTS__________
 }

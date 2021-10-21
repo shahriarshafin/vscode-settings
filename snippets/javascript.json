@@ -1,4 +1,5 @@
 {
+	// ----------- javascript ---------------
 	"Print log to console": {
 		"prefix": "log",
 		"body": ["console.log($hello);"],
@@ -13,8 +14,8 @@
 		"prefix": "func",
 		"body": [
 			"const $myfunc = () => {",
-			"   const a = 5;",
-			"   console.log(a);$0",
+			"$0",
+			"   console.log('hello');",
 			"};",
 			"",
 			"$myfunc();",
@@ -31,5 +32,60 @@
 		"prefix": "getclass",
 		"body": ["const $el = document.getElementsByClassName('$el');", "$0"],
 		"description": "Get element by Class"
+	},
+	"Asynchronously request for a resource with fetch() method": {
+		"prefix": "fetch",
+		"body": [
+			"fetch('${1:example}')",
+			"   .then(res=>res.json())",
+			"   .then(json=>console.log(json))",
+			"$0"
+		],
+		"description": "Asynchronously request for a resource with fetch() method"
+	},
+	// ---------------- react ----------------
+	"Import react": {
+		"prefix": "impreact",
+		"body": ["import React from 'react';"],
+		"description": "Import react"
+	},
+	"Replace a tag with react router link": {
+		"prefix": "Link",
+		"body": ["<Link to=\"/something\">Something</Link>"],
+		"description": "The primary way to allow users to navigate around react application"
+	},
+	"import react-router-dom": {
+		"prefix": "improuter",
+		"body": [
+			"import {BrowserRouter as Router, Switch, Route, Link, NavLink} from \"react-router-dom\";"
+		],
+		"description": "import react-router-dom"
+	},
+	"React router imprementtion": {
+		"prefix": "router",
+		"body": [
+			"<Router>",
+			"   <Switch>",
+			"     <Route exact path=\"/${2:path}\" component={${1:component}} />",
+			"     <Route exact path=\"/${4:path}\" component={${3:component}} />",
+			"     <Route exact path=\"/${path}\" component={${5:component}} />",
+			"     <Route component={Error} />",
+			"   </Switch>",
+			"</Router>"
+		],
+		"description": "React router imprementtion"
+	},
+	"useEffect react hook": {
+		"prefix": "effect",
+		"body": ["useEffect(() => {", "  $0  ", "},[]);"],
+		"description": "useEffect react hook"
+	},
+	"useState react hook": {
+		"prefix": "state",
+		"body": [
+			"const [${1:state}, ${1:setstate}] = useState(${2:initialState})",
+			"$0"
+		],
+		"description": "useState react hook"
 	}
 }

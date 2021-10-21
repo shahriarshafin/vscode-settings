@@ -19,7 +19,7 @@ code --install-extension zhuangtongfa.material-theme
 ## Icons
 
 ```
-code --install-extension zhuangtongfa.material-theme
+code --install-extension PKief.material-icon-theme
 ```
 
 ## Installed Extensions
