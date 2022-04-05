@@ -1,0 +1,247 @@
+{
+	// ########### javascript ###############
+	"Print log to console": {
+		"scope": "javascript,javascriptreact,typescript",
+		"prefix": "log",
+		"body": ["console.log($hello)"],
+		"description": "Log output to console"
+	},
+	"Alert Hello World": {
+		"scope": "javascript,javascriptreact,typescript",
+		"prefix": "alert",
+		"body": ["alert(\"Hello, Genius!\");"],
+		"description": "Alert Hello Genius"
+	},
+	"Window prompt() Method": {
+		"scope": "javascript,javascriptreact,typescript",
+		"prefix": "promt",
+		"body": ["const ${1:userInput} = prompt('${2:What is your name?}');"],
+		"description": "Window prompt() Method"
+	},
+	"for loop": {
+		"scope": "javascript,javascriptreact,typescript",
+		"prefix": "for",
+		"body": [
+			"for (let x = 0; x < 10; x++) {",
+			" ${1:console.log('hello');}",
+			"}"
+		],
+		"description": "for loop"
+	},
+	"for loop in": {
+		"scope": "javascript,javascriptreact,typescript",
+		"prefix": "forin",
+		"body": [
+			"for (let x in ${1:object}) {",
+			"   ${2:console.log('hello');}",
+			"}"
+		],
+		"description": "for loop"
+	},
+	"Javascript arrow function": {
+		"scope": "javascript,javascriptreact,typescript",
+		"prefix": "func",
+		"body": [
+			"const $myfunc = () => {",
+			"$0",
+			"   console.log('hello');",
+			"};",
+			"",
+			"$myfunc();",
+			""
+		],
+		"description": "Javascript arrow function"
+	},
+	"Conditional (ternary) operator": {
+		"scope": "javascript,javascriptreact,typescript",
+		"prefix": "ternary",
+		"body": ["const check = (${1:condition}) ? ${2:ifTrue} : ${3:ifFalse};"],
+		"description": "Conditional (ternary) operator"
+	},
+	"JavaScript Switch Statement": {
+		"scope": "javascript,javascriptreact,typescript",
+		"prefix": "switch",
+		"body": [
+			"switch(${1:key}) {",
+			"  case x:",
+			"    // code block",
+			"    break;",
+			"  case y:",
+			"    // code block",
+			"    break;",
+			"  default:",
+			"    // code block",
+			"}"
+		],
+		"description": "JavaScript Switch Statement"
+	},
+	"Asynchronously request for a resource with fetch() method": {
+		"scope": "javascript,javascriptreact,typescript",
+		"prefix": "fetch",
+		"body": [
+			"fetch('${1:example}')",
+			"   .then(res=>res.json())",
+			"   .then(json=>console.log(json))",
+			"$0"
+		],
+		"description": "Asynchronously request for a resource with fetch() method"
+	},
+	"Get element by Id": {
+		"scope": "javascript,javascriptreact,typescript",
+		"prefix": "getid",
+		"body": ["const $el = document.getElementById('$el');", "$0"],
+		"description": "Get element by Id"
+	},
+	"Get element by Class": {
+		"scope": "javascript,javascriptreact,typescript",
+		"prefix": "getclass",
+		"body": ["const $el = document.getElementsByClassName('$el');", "$0"],
+		"description": "Get element by Class"
+	},
+	"DOM querySelectorAll() Method": {
+		"scope": "javascript,javascriptreact,typescript",
+		"prefix": "getquery",
+		"body": [
+			"",
+			" const ${1:example} = document.querySelector('#${1:example}');"
+		],
+		"description": "DOM querySelectorAll() Method"
+	},
+	"Placeholder {JSON} ": {
+		"prefix": "placeholderapi",
+		"body": ["`https://jsonplaceholder.typicode.com/post`"],
+		"description": "Placeholder {JSON} "
+	},
+	// ################ react ################
+
+	// import libraries
+	"import react": {
+		"scope": "javascript,javascriptreact,typescript",
+		"prefix": "impreact",
+		"body": ["import React from 'react';"],
+		"description": "import react"
+	},
+	"import useState": {
+		"scope": "javascript,javascriptreact,typescript",
+		"prefix": "impstate",
+		"body": ["import {useState} from 'react';"],
+		"description": "import useState from react"
+	},
+	"import useEffect": {
+		"scope": "javascript,javascriptreact,typescript",
+		"prefix": "impeffect",
+		"body": ["import {useEffect} from 'react';"],
+		"description": "import useEffect from react"
+	},
+	"import styled component": {
+		"scope": "javascript,javascriptreact,typescript",
+		"prefix": "impstyled",
+		"body": ["import styled from 'styled-components';"],
+		"description": "import styled component"
+	},
+	"import react-bootstrap": {
+		"scope": "javascript,javascriptreact,typescript",
+		"prefix": "impboot",
+		"body": [
+			"import { Button, Container, Row, Col, Nav, Navbar, Dropdown} from 'react-bootstrap';"
+		],
+		"description": "import react-bootstrap"
+	},
+	"import react-router-dom": {
+		"scope": "javascript,javascriptreact,typescript",
+		"prefix": "improuter",
+		"body": [
+			"import {BrowserRouter as Router, Switch, Route, Link, NavLink} from \"react-router-dom\";"
+		],
+		"description": "import react-router-dom"
+	},
+
+	//implementation
+	"useEffect react hook": {
+		"scope": "javascript,javascriptreact,typescript",
+		"prefix": "effect",
+		"body": ["useEffect(() => {", "  $0  ", "},[]);"],
+		"description": "useEffect react hook"
+	},
+	"useState react hook": {
+		"scope": "javascript,javascriptreact,typescript",
+		"prefix": "state",
+		"body": [
+			"const [${1:state}, ${1:setState}] = useState(${2:initialState})",
+			"$0"
+		],
+		"description": "useState react hook"
+	},
+	"React router implementation": {
+		"scope": "javascript,javascriptreact,typescript",
+		"prefix": "router",
+		"body": [
+			"<Router>",
+			"   <Switch>",
+			"     <Route exact path=\"/${1:path}\" component={${1:component}} />",
+			"     <Route exact path=\"/${2:path}\" component={${2:component}} />",
+			"     <Route exact path=\"/${3:path}\" component={${3:component}} />",
+			"     <Route component={${4:Error}} />",
+			"   </Switch>",
+			"</Router>"
+		],
+		"description": "React router implementation"
+	},
+	"boom": {
+		"prefix": "_rafce",
+		"body": [
+			"",
+			"const $TM_FILENAME_BASE = () => {",
+			"  return (",
+			"    <div>",
+			"       $Boom!",
+			"    </div>",
+			"  )",
+			"}",
+			"",
+			"export default $TM_FILENAME_BASE"
+		],
+		"description": "boom"
+	},
+	// ################ css ################
+	"Globals CSS": {
+		"scope": "javascript,javascriptreact,typescript",
+		"prefix": "*{}",
+		"body": [
+			"*{",
+			" box-sizing: border-box;",
+			" margin: 0;",
+			" padding: 0;",
+			" scroll-behavior: smooth;",
+			"}"
+		],
+		"description": "Globals CSS"
+	},
+	"Display flex property": {
+		"scope": "javascript,javascriptreact,typescript",
+		"prefix": "d-flex",
+		"body": [
+			"display: flex;",
+			"align-items: center;",
+			"justify-content: center;"
+		],
+		"description": "Display flex property"
+	},
+	"User select property": {
+		"scope": "javascript,javascriptreact,typescript",
+		"prefix": "user-select",
+		"body": [
+			"-webkit-user-drag: none;",
+			"user-select: none;",
+			"-webkit-user-select: none;",
+			"-ms-user-select: none;"
+		],
+		"description": "User select property"
+	},
+	"Margin right and left auto": {
+		"scope": "javascript,javascriptreact,typescript",
+		"prefix": "mx-auto",
+		"body": ["margin-right: auto!important;", "margin-left: auto!important;"],
+		"description": "Margin right and left auto"
+	}
+}

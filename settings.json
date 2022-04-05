@@ -11,15 +11,29 @@
 	//___________GENERAL__________
 
 	//__________FEATURES__________
-	// include js feature on react
-	"emmet.includeLanguages": { "javascript": "javascriptreact" },
 	// auto update import
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"typescript.updateImportsOnFileMove.enabled": "always",
-	// auto rename tag
-	"editor.linkedEditing": true,
+	// JSX attribute completions
+	"javascript.preferences.jsxAttributeCompletionStyle": "auto",
+	"typescript.preferences.jsxAttributeCompletionStyle": "auto",
+	// auto rename tags
+	// "editor.linkedEditing": true,
+	//bracket pair color
+	"editor.guides.bracketPairs": "active",
+	"editor.bracketPairColorization.enabled": true,
 	// complete snippets on tab
 	"editor.tabCompletion": "on",
+	// code completion suggestion
+	"editor.inlineSuggest.enabled": true,
+	// include js feature on react
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	// layout control button
+	"workbench.layoutControl.enabled": true,
+	// language feature suggestion for untitled file
+	"workbench.editor.historyBasedLanguageDetection": true,
 	//___________FEATURES__________
 
 	//__________TERMINAL__________
@@ -28,7 +42,7 @@
 	// terminal cursor line width
 	"terminal.integrated.cursorWidth": 2,
 	// default terminal
-	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"terminal.integrated.defaultProfile.windows": "Command Prompt",
 	//__________TERMINAL___________
 
 	//_______VERSION CONTROL_______
@@ -49,17 +63,35 @@
 	// #liveServer
 	"liveServer.settings.donotShowInfoMsg": true,
 	"liveServer.settings.donotVerifyTags": true,
-	// "liveServer.settings.useLocalIp": true,
+	"liveServer.settings.useLocalIp": true,
 
 	// #eslint
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": true,
 		"source.fixAll.tslint": true,
-		"source.organizeImports": true
+		"source.organizeImports": true,
+		"addMissingImports": true
 	},
 
 	// #tabnine
 	"tabnine.experimentalAutoImports": true,
+	// "tabnine.receiveBetaChannelUpdates": true,
+
+	// #thunderClient
+	"thunder-client.codeSnippetLanguage": "js-axios",
+
+	// #copilot
+	"github.copilot.enable": {
+		"*": true,
+		"yaml": false,
+		"plaintext": false,
+		"markdown": false,
+		"javascriptreact": true,
+		"javascript": true
+	},
+	// #tailwindCss
+	"tailwindCSS.emmetCompletions": true,
+	"tailwindCSS.validate": true,
 	//_________EXTENSIONS__________
 
 	//___________FORMATER___________
@@ -105,12 +137,21 @@
 	// terminal cursor line
 	"terminal.integrated.cursorStyle": "line",
 	// terminal cursor blinking
-	"terminal.integrated.cursorBlinking": true
+	"terminal.integrated.cursorBlinking": true,
+
 	//___________OUTLOOK____________
 
 	//_________EXPERIMENTS__________
-	// "javascript.validate.enable": false,
+	// "javascript.validate.enable": false
 	// "typescript.validate.enable": false,
-
+	"javascript.preferences.importModuleSpecifier": "non-relative",
+	"typescript.preferences.importModuleSpecifier": "non-relative",
+	"security.workspace.trust.untrustedFiles": "open",
+	"window.menuBarVisibility": "compact",
+	"editor.quickSuggestions": {
+		"strings": true,
+		"comments": true,
+		"other": true
+	}
 	//_________EXPERIMENTS__________
 }

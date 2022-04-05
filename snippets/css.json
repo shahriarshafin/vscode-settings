@@ -1,4 +1,16 @@
 {
+	"Globals CSS": {
+		"prefix": "*{}",
+		"body": [
+			"*{",
+			" box-sizing: border-box;",
+			" margin: 0;",
+			" padding: 0;",
+			" scroll-behavior: smooth;",
+			"}"
+		],
+		"description": "Globals CSS"
+	},
 	"Display flex property": {
 		"prefix": "d-flex",
 		"body": [
@@ -17,5 +29,10 @@
 			"-ms-user-select: none;"
 		],
 		"description": "User select property"
+	},
+	"Margin right and left auto": {
+		"prefix": "mx-auto",
+		"body": ["margin-right: auto!important;", "margin-left: auto!important;"],
+		"description": "Margin right and left auto"
 	}
 }
