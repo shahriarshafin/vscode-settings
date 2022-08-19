@@ -8,6 +8,10 @@
 	"explorer.confirmDelete": false,
 	// file/folder drag-drop confirmation
 	"explorer.confirmDragAndDrop": false,
+	// start page welcome message
+	"workbench.startupEditor": "none",
+	// file opening permission
+	"security.workspace.trust.untrustedFiles": "open",
 	//___________GENERAL__________
 
 	//__________FEATURES__________
@@ -19,6 +23,9 @@
 	"typescript.preferences.jsxAttributeCompletionStyle": "auto",
 	// auto rename tags
 	// "editor.linkedEditing": true,
+	// "html.autoClosingTags": true,
+	// "javascript.autoClosingTags": true,
+	// "typescript.autoClosingTags": true,
 	//bracket pair color
 	"editor.guides.bracketPairs": "active",
 	"editor.bracketPairColorization.enabled": true,
@@ -34,6 +41,14 @@
 	"workbench.layoutControl.enabled": true,
 	// language feature suggestion for untitled file
 	"workbench.editor.historyBasedLanguageDetection": true,
+	// function sticky top
+	"editor.experimental.stickyScroll.enabled": true,
+	// editor Suggestions
+	"editor.quickSuggestions": {
+		"strings": true,
+		"comments": true,
+		"other": true
+	},
 	//___________FEATURES__________
 
 	//__________TERMINAL__________
@@ -42,7 +57,7 @@
 	// terminal cursor line width
 	"terminal.integrated.cursorWidth": 2,
 	// default terminal
-	"terminal.integrated.defaultProfile.windows": "Command Prompt",
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
 	//__________TERMINAL___________
 
 	//_______VERSION CONTROL_______
@@ -85,31 +100,25 @@
 		"*": true,
 		"yaml": false,
 		"plaintext": false,
-		"markdown": false,
-		"javascriptreact": true,
-		"javascript": true
+		"markdown": true,
+		"javascriptreact": false,
+		"javascript": false
 	},
+
 	// #tailwindCss
+	"css.lint.unknownAtRules": "ignore",
 	"tailwindCSS.emmetCompletions": true,
 	"tailwindCSS.validate": true,
+	"tailwindCSS.includeLanguages": {
+		"html": "html",
+		"javascript": "javascript",
+		"css": "css"
+	},
 	//_________EXTENSIONS__________
 
 	//___________FORMATER___________
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
-
 	"[html]": { "editor.defaultFormatter": "vscode.html-language-features" },
-
-	"[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-
-	"[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-
-	"[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-
-	"[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-
-	"[jsonc]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
 	//___________FORMATER___________
 
 	//___________OUTLOOK____________
@@ -138,20 +147,14 @@
 	"terminal.integrated.cursorStyle": "line",
 	// terminal cursor blinking
 	"terminal.integrated.cursorBlinking": true,
-
+	// menubar visibility changes
+	"window.menuBarVisibility": "compact"
 	//___________OUTLOOK____________
 
 	//_________EXPERIMENTS__________
-	// "javascript.validate.enable": false
+	// "javascript.validate.enable": false,
 	// "typescript.validate.enable": false,
-	"javascript.preferences.importModuleSpecifier": "non-relative",
-	"typescript.preferences.importModuleSpecifier": "non-relative",
-	"security.workspace.trust.untrustedFiles": "open",
-	"window.menuBarVisibility": "compact",
-	"editor.quickSuggestions": {
-		"strings": true,
-		"comments": true,
-		"other": true
-	}
+	// "javascript.preferences.importModuleSpecifier": "non-relative",
+	// "typescript.preferences.importModuleSpecifier": "non-relative",
 	//_________EXPERIMENTS__________
 }

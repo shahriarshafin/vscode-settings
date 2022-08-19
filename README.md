@@ -4,11 +4,7 @@ My Visual Studio Code [Settings](https://github.com/shahriarshafin/vscode-settin
 
 ## User Snippets
 
-- [HTML](https://github.com/shahriarshafin/vscode-settings/blob/main/snippets/html.json)
-- [CSS](https://github.com/shahriarshafin/vscode-settings/blob/main/snippets/css.json)
-- [JavaScript](https://github.com/shahriarshafin/vscode-settings/blob/main/snippets/javascript.json)
-- [JavaScript React](https://github.com/shahriarshafin/vscode-settings/blob/main/snippets/javascriptreact.json)
-- [Markdown](https://github.com/shahriarshafin/vscode-settings/blob/main/snippets/markdown.json)
+- ### [js-ts-jsx-tsx.jsonc](https://github.com/shahriarshafin/vscode-settings/blob/main/snippets/js-ts-jsx-tsx.jsonc)
 
 ## Theme
 
@@ -29,21 +25,20 @@ code --install-extension PKief.material-icon-theme
 ```bash
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension pranaygp.vscode-css-peek
-code --install-extension dsznajder.es7-react-js-snippets
+code --install-extension usernamehw.errorlens
 code --install-extension dbaeumer.vscode-eslint
-code --install-extension GitHub.copilot
+code --install-extension github.codespaces
+code --install-extension github.copilot
 code --install-extension eamodio.gitlens
 code --install-extension wix.vscode-import-cost
+code --install-extension moalamri.inline-fold
 code --install-extension ritwickdey.liveserver
+code --install-extension christian-kohler.path-intellisense
 code --install-extension esbenp.prettier-vscode
-# code --install-extension cipchk.cssrem
 code --install-extension WallabyJs.quokka-vscode
+code --install-extension tabnine.tabnine-vscode
 code --install-extension bradlc.vscode-tailwindcss
 code --install-extension rangav.vscode-thunder-client
-code --install-extension jpoissonnier.vscode-styled-components
-code --install-extension ms-vsliveshare.vsliveshare
-code --install-extension christian-kohler.path-intellisense
-code --install-extension Tabnine.tabnine-vscode
 ```
 
 ### Checking

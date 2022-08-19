@@ -1,25 +1,25 @@
 {
 	// ########### javascript ###############
 	"Print log to console": {
-		"scope": "javascript,javascriptreact,typescript",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "log",
 		"body": ["console.log($hello)"],
 		"description": "Log output to console"
 	},
 	"Alert Hello World": {
-		"scope": "javascript,javascriptreact,typescript",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "alert",
 		"body": ["alert(\"Hello, Genius!\");"],
 		"description": "Alert Hello Genius"
 	},
 	"Window prompt() Method": {
-		"scope": "javascript,javascriptreact,typescript",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "promt",
 		"body": ["const ${1:userInput} = prompt('${2:What is your name?}');"],
 		"description": "Window prompt() Method"
 	},
 	"for loop": {
-		"scope": "javascript,javascriptreact,typescript",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "for",
 		"body": [
 			"for (let x = 0; x < 10; x++) {",
@@ -29,7 +29,7 @@
 		"description": "for loop"
 	},
 	"for loop in": {
-		"scope": "javascript,javascriptreact,typescript",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "forin",
 		"body": [
 			"for (let x in ${1:object}) {",
@@ -39,7 +39,7 @@
 		"description": "for loop"
 	},
 	"Javascript arrow function": {
-		"scope": "javascript,javascriptreact,typescript",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "func",
 		"body": [
 			"const $myfunc = () => {",
@@ -53,13 +53,13 @@
 		"description": "Javascript arrow function"
 	},
 	"Conditional (ternary) operator": {
-		"scope": "javascript,javascriptreact,typescript",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "ternary",
 		"body": ["const check = (${1:condition}) ? ${2:ifTrue} : ${3:ifFalse};"],
 		"description": "Conditional (ternary) operator"
 	},
 	"JavaScript Switch Statement": {
-		"scope": "javascript,javascriptreact,typescript",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "switch",
 		"body": [
 			"switch(${1:key}) {",
@@ -76,7 +76,7 @@
 		"description": "JavaScript Switch Statement"
 	},
 	"Asynchronously request for a resource with fetch() method": {
-		"scope": "javascript,javascriptreact,typescript",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "fetch",
 		"body": [
 			"fetch('${1:example}')",
@@ -87,19 +87,19 @@
 		"description": "Asynchronously request for a resource with fetch() method"
 	},
 	"Get element by Id": {
-		"scope": "javascript,javascriptreact,typescript",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "getid",
 		"body": ["const $el = document.getElementById('$el');", "$0"],
 		"description": "Get element by Id"
 	},
 	"Get element by Class": {
-		"scope": "javascript,javascriptreact,typescript",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "getclass",
 		"body": ["const $el = document.getElementsByClassName('$el');", "$0"],
 		"description": "Get element by Class"
 	},
 	"DOM querySelectorAll() Method": {
-		"scope": "javascript,javascriptreact,typescript",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "getquery",
 		"body": [
 			"",
@@ -108,39 +108,46 @@
 		"description": "DOM querySelectorAll() Method"
 	},
 	"Placeholder {JSON} ": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "placeholderapi",
 		"body": ["`https://jsonplaceholder.typicode.com/post`"],
 		"description": "Placeholder {JSON} "
+	},
+	"Placeholder Image": {
+		"scope": "html,javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": "getimg",
+		"body": ["https://via.placeholder.com/300"],
+		"description": "Placeholder Image"
 	},
 	// ################ react ################
 
 	// import libraries
 	"import react": {
-		"scope": "javascript,javascriptreact,typescript",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "impreact",
 		"body": ["import React from 'react';"],
 		"description": "import react"
 	},
 	"import useState": {
-		"scope": "javascript,javascriptreact,typescript",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "impstate",
 		"body": ["import {useState} from 'react';"],
 		"description": "import useState from react"
 	},
 	"import useEffect": {
-		"scope": "javascript,javascriptreact,typescript",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "impeffect",
 		"body": ["import {useEffect} from 'react';"],
 		"description": "import useEffect from react"
 	},
 	"import styled component": {
-		"scope": "javascript,javascriptreact,typescript",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "impstyled",
 		"body": ["import styled from 'styled-components';"],
 		"description": "import styled component"
 	},
 	"import react-bootstrap": {
-		"scope": "javascript,javascriptreact,typescript",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "impboot",
 		"body": [
 			"import { Button, Container, Row, Col, Nav, Navbar, Dropdown} from 'react-bootstrap';"
@@ -148,7 +155,7 @@
 		"description": "import react-bootstrap"
 	},
 	"import react-router-dom": {
-		"scope": "javascript,javascriptreact,typescript",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "improuter",
 		"body": [
 			"import {BrowserRouter as Router, Switch, Route, Link, NavLink} from \"react-router-dom\";"
@@ -158,22 +165,22 @@
 
 	//implementation
 	"useEffect react hook": {
-		"scope": "javascript,javascriptreact,typescript",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "effect",
 		"body": ["useEffect(() => {", "  $0  ", "},[]);"],
 		"description": "useEffect react hook"
 	},
 	"useState react hook": {
-		"scope": "javascript,javascriptreact,typescript",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "state",
 		"body": [
-			"const [${1:state}, ${1:setState}] = useState(${2:initialState})",
+			"const [ ${1}, set${1/(.)/${1:/capitalize}/} ] = useState(${2:0});",
 			"$0"
 		],
 		"description": "useState react hook"
 	},
 	"React router implementation": {
-		"scope": "javascript,javascriptreact,typescript",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "router",
 		"body": [
 			"<Router>",
@@ -191,21 +198,21 @@
 		"prefix": "_rafce",
 		"body": [
 			"",
-			"const $TM_FILENAME_BASE = () => {",
+			"const ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/} = () => {",
 			"  return (",
-			"    <div>",
-			"       $Boom!",
-			"    </div>",
+			"    <>",
+			"       <h1>${1:Boom!}</h1>",
+			"    </>",
 			"  )",
 			"}",
 			"",
-			"export default $TM_FILENAME_BASE"
+			"export default ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/};"
 		],
-		"description": "boom"
+		"description": "React functional component"
 	},
 	// ################ css ################
 	"Globals CSS": {
-		"scope": "javascript,javascriptreact,typescript",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "*{}",
 		"body": [
 			"*{",
@@ -218,7 +225,7 @@
 		"description": "Globals CSS"
 	},
 	"Display flex property": {
-		"scope": "javascript,javascriptreact,typescript",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "d-flex",
 		"body": [
 			"display: flex;",
@@ -228,7 +235,7 @@
 		"description": "Display flex property"
 	},
 	"User select property": {
-		"scope": "javascript,javascriptreact,typescript",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "user-select",
 		"body": [
 			"-webkit-user-drag: none;",
@@ -239,7 +246,7 @@
 		"description": "User select property"
 	},
 	"Margin right and left auto": {
-		"scope": "javascript,javascriptreact,typescript",
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "mx-auto",
 		"body": ["margin-right: auto!important;", "margin-left: auto!important;"],
 		"description": "Margin right and left auto"
